@@ -1,3 +1,4 @@
+//1
 //var ps = require("prompt-sync");
 //var prompt = ps();
 
@@ -13,3 +14,92 @@
 //else{
     //console.log("Not within interval")
 //}
+
+//2
+//var ps = require("prompt-sync");
+//var prompt = ps();
+
+//let year = prompt("Write a year: ")
+//function leapyear(year){
+  //  if ((0 == year %4) && (0 != year % 100) || (0 == year % 400)){
+    //    console.log(year + " is a leap year");
+  //  }else {
+ //       console.log(year + " is not a leap year")
+ //   }
+//}
+//leapyear(year); 
+
+//3
+//var ps = require("prompt-sync");
+//var prompt = ps();
+
+//let m = prompt("Give me a month: ")
+
+//let y = prompt("Give me a year: ")
+
+
+//4
+//var ps = require("prompt-sync");
+//var prompt = ps();
+
+//let num1 = prompt("Give me a number: ")
+//let num2 = prompt("Give me another: ")
+//let num3 = prompt("Give me one more: ")
+
+//function greatestnumber(num1,num2,num3){
+    //if((num1>num2) && (num1>num3)){
+        //console.log(num1 + " is the greatest number of those")
+    //}else if ((num2>num1) && (num2>num3)){
+        //console.log(num2 + " is the greatest number of those")
+    //} else {
+     //   console.log(num3 + " is the greatest number of those")
+    //}
+//}
+//greatestnumber(num1,num2,num3);
+
+
+//5
+//var ps = require("prompt-sync");
+//var prompt = ps();
+
+//let num1 = prompt("Give me a number: ")
+//let num2 = prompt("Give me another: ")
+//let num3 = prompt("Give me one more: ")
+
+//function sortnumber(num1,num2,num3){
+    //if((num1>num2) && (num2>num3)){
+    //    console.log("The oder is " + num1 + num2 + num3)
+    //}
+    //else if((num1>num2) && (num3>num2)){
+    //    console.log("The oder is " + num1 + num3 + num2)
+    //}else if ((num2>num1) && (num1>num3)){
+    //    console.log("The oder is " + num2 + num1 + num3)
+    //}else if ((num2>num3) && (num3>num1)){
+    //    console.log("The oder is " + num2 + num3 + num1)
+    //}else if ((num3>num1) && (num1>num2)){
+   //     console.log("The oder is " + num3 + num1 + num2)
+    //}else {
+    //    console.log("The oder is " + num3 + num2 + num1)
+    //}
+//}
+//sortnumber(num1,num2,num3)
+
+
+//6
+//var ps = require("prompt-sync");
+//var prompt = ps();
+
+//let num1 = prompt("Give me a number: ")
+//let num2 = prompt("Give me another: ")
+//let num3 = prompt("Give me one more: ")
+
+//function goupordown(num1,num2,num3){
+    //if((num1>num2) && (num2>num3)){
+   //     console.log("decrease")
+   // }else if((num3>num2) && (num2>num1)){
+   //     console.log("increase")
+   // }else{
+  //      console.log("neither")
+  //  }
+//}
+//goupordown(num1,num2,num3)
