@@ -103,3 +103,66 @@
   //  }
 //}
 //goupordown(num1,num2,num3)
+
+
+// 1
+
+//var ps = require("prompt-sync");
+//var prompt = ps();
+
+//let bert = parseInt(prompt("Give me a number: "))
+
+//function plusminus(bert){
+
+//if(bert>0){
+//    console.log("It is posetive")
+
+//}else if(bert<0){
+//    console.log("It is negative")
+//}else{
+//    console.log("It is 0")
+//}
+
+//}
+//plusminus(bert)
+
+
+
+// 2
+
+var ps = require("prompt-sync");
+var prompt = ps();
+
+
+let hum = prompt("Give me a symbol: ")
+
+if (hum == "a"){
+   console.log("Letter")
+}if (hum == "b"){
+    console.log("Letter")
+ }if (hum == "c"){
+    console.log("Letter")
+ }if (hum == "d"){
+    console.log("Letter")
+ }if (hum == "e"){
+    console.log("Letter")
+}if (hum == "f"){
+    console.log("Letter")
+ }if (hum == "g"){
+    console.log("Letter")
+ }if (hum == "h"){
+    console.log("Letter")
+ }if (hum == "i"){
+    console.log("Letter")
+ } if (hum == "j"){
+    console.log("Letter")
+ }if (hum == "k"){
+    console.log("Letter")
+ }if (hum == "l"){
+    console.log("Letter")
+ }
+ 
+ else{
+    console.log ("not a letter")
+ }
+ 
